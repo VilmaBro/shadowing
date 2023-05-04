@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("IntroVideo");
+        SceneManager.LoadScene(1);
+        Debug.Log("starta scen 1");
+
     }
 }
