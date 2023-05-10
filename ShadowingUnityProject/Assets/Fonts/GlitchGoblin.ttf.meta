@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e67836c0f0405f4b9efc1927ec955f2
+guid: 54f1b2fe97a314d4aafe6ad164ff68d8
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Dead Font Walking
+  - Glitch Goblin
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
