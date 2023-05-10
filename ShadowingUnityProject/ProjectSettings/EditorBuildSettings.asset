@@ -11,37 +11,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroVideo.unity
     guid: c22203f1474f74f1ba6731f8292692c3
-  - enabled: 1
-    path: Assets/Scenes/GameScene1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/InstructionScene1.unity
-    guid: ce9701484c9f94c1aa1d57d84f8a4ce2
-  - enabled: 1
-    path: Assets/Scenes/GameScene2.unity
-    guid: 1aca8f77048694653a104707332f5aed
-  - enabled: 1
-    path: Assets/Scenes/GameScene3.unity
-    guid: fb2267eb0776248db80dfc460043b499
-  - enabled: 1
-    path: Assets/Scenes/GameScene4.unity
-    guid: 7f01f280775a54370884cc6e0190436a
-  - enabled: 1
-    path: Assets/Scenes/GameScene5.unity
-    guid: b6f78fb1fe55f49f69edeff31119aa1d
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/InteractionScene1.unity
     guid: d0992edfecdba42b6b8509f535fba416
-  - enabled: 1
-    path: Assets/Scenes/GameScene6.unity
-    guid: 6c83932ef26134931b169fd5bab6b191
-  - enabled: 1
-    path: Assets/Scenes/InteractionScene2.unity
-    guid: 130c73a43d92b4d08a3a48a235a22d59
-  - enabled: 1
-    path: Assets/Scenes/GameScene7.unity
-    guid: 1280d9858fa284095850c236fab52725
-  - enabled: 1
-    path: Assets/Scenes/InteractionScene3.unity
-    guid: 501dcf106eeb948fcbba2e17d9c953c4
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
