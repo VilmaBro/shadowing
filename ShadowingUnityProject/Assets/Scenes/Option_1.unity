@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 372516805}
   - component: {fileID: 372516804}
   m_Layer: 0
-  m_Name: VIdeo - Before
+  m_Name: Video - Before
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
