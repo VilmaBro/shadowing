@@ -11,12 +11,12 @@ public class VideoTimer : MonoBehaviour
 
     void Start()
     {
-        Invoke("VideoTimer", videoLength);
+        Invoke("changeToNextScene", videoLength);
     }
 
-    public void ContinueStartGame()
+    public void changeToNextScene()
     {
         showUpObject.SetActive(true);
-        Debug.Log("Nu1l");
+        Debug.Log("Nu");
     }
 }
