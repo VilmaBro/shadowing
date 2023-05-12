@@ -6,6 +6,11 @@ using UnityEngine.UI;
 public class SwitchToggle : MonoBehaviour
 {
     [SerializeField] RectTransform uiHandleRectTransform;
+    [SerializeField] Color backgroundActiveColor;
+
+    Image backgroundImage, handleImage;
+
+    Color backgroundDefaultColor, handleDefaultColor;
 
     Toggle toggle;
 
@@ -17,6 +22,10 @@ public class SwitchToggle : MonoBehaviour
 
         handlePosition = uiHandleRectTransform.anchoredPosition;
 
+        backgroundImage = uiHandleRectTransform.parent.GetComponent<Image>();
+
+        backgroundDefaultColor = backgroundImage.color;
+
         toggle.onValueChanged.AddListener(OnSwitch);
 
         if (toggle.isOn)
@@ -26,6 +35,7 @@ public class SwitchToggle : MonoBehaviour
     void OnSwitch(bool on)
     {
         uiHandleRectTransform.anchoredPosition = on ? handlePosition * -1 : handlePosition;
+        backgroundImage.color = on ? backgroundActiveColor : backgroundDefaultColor;
     }
 
     private void OnDestroy()
