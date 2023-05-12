@@ -36,10 +36,12 @@ public class SwitchToggle : MonoBehaviour
     {
         uiHandleRectTransform.anchoredPosition = on ? handlePosition * -1 : handlePosition;
         backgroundImage.color = on ? backgroundActiveColor : backgroundDefaultColor;
+
     }
 
     private void OnDestroy()
     {
         toggle.onValueChanged.RemoveListener(OnSwitch);
+
     }
 }
