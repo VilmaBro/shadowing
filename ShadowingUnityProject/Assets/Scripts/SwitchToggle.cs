@@ -39,9 +39,9 @@ public class SwitchToggle : MonoBehaviour
 
     }
 
-    //private void OnDestroy()
-   // {
-//        toggle.onValueChanged.RemoveListener(OnSwitch);
+    private void OnDestroy()
+    {
+        toggle.onValueChanged.RemoveListener(OnSwitch);
 
-  //  }
+    }
 }
