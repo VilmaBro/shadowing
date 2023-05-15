@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Intro[SerializeField] AudioSource AudioSource;     [SerializeField] AudioClip
+    MusicClip;      private void Start()     {         AudioSource.clip = MusicClip;        
+    AudioSource.loop = true;         AudioSource.Play();     }      public static
+    MusicManagment instance;      private void Awake()     {         if(instance
+    == null)         {             instance = this;             DontDestroyOnLoad(gameObject);        
+    }         else      IntroVideo
+  - IntroVideo
   layers:
   - Default
   - TransparentFX
