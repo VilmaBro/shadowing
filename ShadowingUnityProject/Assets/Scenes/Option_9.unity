@@ -1156,8 +1156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 715eb452a3c054b3481f93c15c5b79b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showUpObject: {fileID: 0}
-  videoLength: 0
+  showUpObject: {fileID: 33204246}
+  videoLength: 8
 --- !u!114 &1787737983
 MonoBehaviour:
   m_ObjectHideFlags: 0
