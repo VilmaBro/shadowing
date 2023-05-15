@@ -986,7 +986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 93815288}
-  videoLength: 7
+  videoLength: 4
 --- !u!114 &1579792881
 MonoBehaviour:
   m_ObjectHideFlags: 0
