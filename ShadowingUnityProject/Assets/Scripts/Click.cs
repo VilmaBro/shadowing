@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Click : MonoBehaviour
 {
-    public AudioSource audio;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
-    public void playClick()
+    public void playClip()
     {
-        audio.Play();
-        
+        audioSource.Play();
+        print("playClip");
     }
 }
