@@ -452,7 +452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 2110391866}
-  videoLength: 34
+  videoLength: 1
 --- !u!114 &477947872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 209885780}
-  videoLength: 30
+  videoLength: 1
 --- !u!114 &477947873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1566711570}
-  videoLength: 34
+  videoLength: 1
 --- !u!114 &477947874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 244452995}
-  videoLength: 34
+  videoLength: 1
 --- !u!1 &546220853
 GameObject:
   m_ObjectHideFlags: 0
