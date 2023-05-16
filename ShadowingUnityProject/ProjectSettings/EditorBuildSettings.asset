@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LeftOfTheTrain(End).unity
     guid: 30cbbd5e93f49f54a8275a634716efff
   - enabled: 1
-    path: Assets/Scenes/Confrontation.unity
+    path: Assets/Scenes/Confrontation(BADEND).unity
     guid: 7aa6d9655453f414e935a4a42a17711c
+  - enabled: 1
+    path: Assets/Scenes/SubwayGetHelp(GoodEnding).unity
+    guid: 1d0f4fa52f9e5408aa74f69283a47bbe
   m_configObjects: {}
