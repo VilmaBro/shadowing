@@ -589,7 +589,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 16
+          m_IntArgument: 14
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -946,7 +946,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 17
+          m_IntArgument: 13
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1245,8 +1245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 969420e3d91b64705868987b0f669293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 2084210543}
-  audioClip: {fileID: 8300000, guid: d0bcd5bfc9cae45b78cd1808f556c07e, type: 3}
 --- !u!1 &2032861764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,7 +1510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 715444367}
-  videoLength: 6
+  videoLength: 2
 --- !u!114 &2097452123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1526,7 +1524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1273527645}
-  videoLength: 6
+  videoLength: 4
 --- !u!114 &2097452124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,7 +1538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1837132563}
-  videoLength: 6
+  videoLength: 4
 --- !u!1 &2102237545
 GameObject:
   m_ObjectHideFlags: 0
