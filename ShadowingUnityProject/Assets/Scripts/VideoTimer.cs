@@ -17,6 +17,6 @@ public class VideoTimer : MonoBehaviour
     public void changeToNextScene()
     {
         showUpObject.SetActive(true);
-        Debug.Log("Nu");
+        
     }
 }
