@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/IntroVideo.unity
     guid: c22203f1474f74f1ba6731f8292692c3
   - enabled: 1
-    path: Assets/Scenes/Option_1.unity
-    guid: cbc80fe658c394aa1a137e2f8fd9fe42
-  - enabled: 1
     path: Assets/Scenes/MissBussScene.unity
     guid: 81225081a77104700ad79e3c6cea9a31
+  - enabled: 1
+    path: Assets/Scenes/Option_1.unity
+    guid: cbc80fe658c394aa1a137e2f8fd9fe42
   - enabled: 1
     path: Assets/Scenes/Option_2.unity
     guid: 761feb5e97bb64bb4ac9e9855db8de72
