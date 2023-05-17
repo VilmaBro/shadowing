@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: c22203f1474f74f1ba6731f8292692c3
   - enabled: 0
     path: 
-    guid: 81225081a77104700ad79e3c6cea9a31
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Option_1.unity
     guid: cbc80fe658c394aa1a137e2f8fd9fe42
@@ -50,10 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stranger_GoodEnding.unity
     guid: 0445c9602c71348e987f7a0915f2dd31
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RightOfTheTrain(End).unity
     guid: 12f1437833b198844b58fb17736ce45e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LeftOfTheTrain(End).unity
     guid: 30cbbd5e93f49f54a8275a634716efff
   - enabled: 1
