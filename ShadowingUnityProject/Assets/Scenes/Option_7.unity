@@ -183,7 +183,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f98251981a0a1724c9018be831bf6aaf, type: 3}
-    m_FontSize: 40
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -194,7 +194,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do you want to run or continue to walk?
+  m_Text: You chose to remain in your seat on the subway and now you realize that
+    you are being followed. Do you want to run or continue to walk?
 --- !u!222 &431515270
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -659,7 +660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1387530490}
-  videoLength: 16
+  videoLength: 14
 --- !u!114 &947987389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -897,7 +898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1387530491
 RectTransform:
   m_ObjectHideFlags: 0
@@ -907,7 +908,7 @@ RectTransform:
   m_GameObject: {fileID: 1387530490}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.476419, y: 2.3068, z: 1}
+  m_LocalScale: {x: 10.476419, y: 3.3167458, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 431515268}
