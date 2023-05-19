@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 2060302447}
-  videoLength: 21
+  videoLength: 17
 --- !u!114 &947987388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1387530490}
-  videoLength: 14
+  videoLength: 11
 --- !u!114 &947987389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1738530380}
-  videoLength: 21
+  videoLength: 17
 --- !u!114 &947987390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 2049279058}
-  videoLength: 21
+  videoLength: 17
 --- !u!1 &1047338122
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +759,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280700813}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 98f68c5dcb952464499f946162551067, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 37dccedb18450dc46ba3f5dbb0994b6b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1663451159}
@@ -1615,7 +1615,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
