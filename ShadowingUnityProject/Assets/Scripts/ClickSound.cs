@@ -13,4 +13,10 @@ public class ClickSound : MonoBehaviour
         print("Play Effect");
         audioSource.Play();
     }
+
+    private void Start()
+    {
+        DontDestroyOnLoad(audioSource);
+        Debug.Log("Don't Destroy Click");
+    }
 }
