@@ -11,6 +11,7 @@ TagManager:
     == null)         {             instance = this;             DontDestroyOnLoad(gameObject);        
     }         else      IntroVideo
   - IntroVideo
+  - Click
   layers:
   - Default
   - TransparentFX
