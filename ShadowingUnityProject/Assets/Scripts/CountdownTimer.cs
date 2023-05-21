@@ -1,19 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class CountdownTimer : MonoBehaviour
 {
-    private float timerDuration = 3f * 60F;
+    public int countdownTime;
+    public Text countdownDisplay;
 
-    void Start(){
+    private void Start(){
+        StartCoroutine(CountdownToStart());
 
     }
 
+    IEnumerator CountdownToStart()
+    {
+        while (countdownTime > 0)
+        {
+            countdownDisplay.text = countdownTime.ToString();
 
-    void Update(){
-        
+            yield return new WaitForSeconds(1f);
+
+            countdownTime--;
+        }
+        countdownDisplay.text = "GAME OVER";
+
+        yield return new WaitForSeconds(1f);
+
+        countdownDisplay.gameObject.SetActive(false);
+
     }
-
-       
 
 }
