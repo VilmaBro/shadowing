@@ -228,7 +228,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33204246}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 83643a2621a24a14db01c03174e5ac53, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 63fcfd845d5031c4da3f9e280cab4abe, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1294837488}
@@ -795,7 +795,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658524267}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: e1830bfd6f122f9458591f78328ca554, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7db277b53b684964d942d42c9842d002, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1294837488}
@@ -1001,6 +1001,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1064267051}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: NewScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 20
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1766,7 +1778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 33204246}
-  videoLength: 8
+  videoLength: 12
 --- !u!114 &1787737983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1780,7 +1792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 836334058}
-  videoLength: 4
+  videoLength: 7
 --- !u!114 &1787737984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1794,7 +1806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 460878421}
-  videoLength: 6
+  videoLength: 12
 --- !u!114 &1787737985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1808,7 +1820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 676269392}
-  videoLength: 6
+  videoLength: 12
 --- !u!1 &2091373711
 GameObject:
   m_ObjectHideFlags: 0
