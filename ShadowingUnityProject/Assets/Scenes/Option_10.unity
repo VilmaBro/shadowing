@@ -343,8 +343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 517}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0.50696, y: 577.8213}
+  m_SizeDelta: {x: 99.715, y: 152.7321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715444369
 MonoBehaviour:
@@ -411,7 +411,7 @@ RectTransform:
   m_GameObject: {fileID: 1041589086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2146316, y: 0.6454433, z: 1}
+  m_LocalScale: {x: 0.2146316, y: 0.61317116, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 715444368}
@@ -419,8 +419,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.4000015, y: 0}
-  m_SizeDelta: {x: 330.93024, y: 90.68649}
+  m_AnchoredPosition: {x: 1.4000015, y: 1}
+  m_SizeDelta: {x: 330.9302, y: 131.5361}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041589088
 MonoBehaviour:
@@ -455,8 +455,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do you want to keep walking, or do you want to confront the person who
-    has been following you?
+  m_Text: 'Your dad did not answer the call.
+
+
+    Do you want to keep walking, or
+    do you want to confront the person who has been following you?'
 --- !u!222 &1041589089
 CanvasRenderer:
   m_ObjectHideFlags: 0
