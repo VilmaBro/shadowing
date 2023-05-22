@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ENDMomPickMeUp.unity
     guid: ef23c800739de424fb47e0ce476989dd
+  - enabled: 1
+    path: Assets/Scenes/GameOverscene.unity
+    guid: 6e6b6422106da4b73a9edc2d4d4d26ae
   m_configObjects: {}
