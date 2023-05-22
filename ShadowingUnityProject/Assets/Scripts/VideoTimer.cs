@@ -7,6 +7,7 @@ public class VideoTimer : MonoBehaviour
 {
 
     public GameObject showUpObject;
+    public GameObject showUpText;
     public float videoLength;
 
     void Start()
@@ -17,6 +18,7 @@ public class VideoTimer : MonoBehaviour
     public void changeToNextScene()
     {
         showUpObject.SetActive(true);
+        showUpText.SetActive(true);
         
     }
 }

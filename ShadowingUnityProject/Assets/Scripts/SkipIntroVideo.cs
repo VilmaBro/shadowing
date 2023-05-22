@@ -10,7 +10,7 @@ public class SkipIntroVideo : MonoBehaviour
     private float lastTapTime;
     private float timeSceneLevelStart;
 
-    void Update()
+    public void Update()
     {
         timeSceneLevelStart += Time.deltaTime;
 
