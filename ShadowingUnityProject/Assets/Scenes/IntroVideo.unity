@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 340802087}
   - component: {fileID: 340802086}
   m_Layer: 0
-  m_Name: DubbleClick
+  m_Name: DubbleClickSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -397,6 +397,7 @@ GameObject:
   - component: {fileID: 1205068456}
   - component: {fileID: 1205068459}
   - component: {fileID: 1205068460}
+  - component: {fileID: 1205068461}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -468,7 +469,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1635187758}
+      - m_Target: {fileID: 1205068461}
         m_TargetAssemblyTypeName: SkipIntroVideo, Assembly-CSharp
         m_MethodName: Update
         m_Mode: 1
@@ -563,6 +564,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1205068461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205068454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdad6140591134ac4bbb3c51a815ceff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenTaps: 0.3
 --- !u!1 &1308447758
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +667,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1635187755}
   - component: {fileID: 1635187754}
-  - component: {fileID: 1635187758}
   - component: {fileID: 1635187759}
   m_Layer: 0
   m_Name: IntroVideo
@@ -712,19 +725,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1635187758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635187753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdad6140591134ac4bbb3c51a815ceff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeBetweenTaps: 0.3
 --- !u!114 &1635187759
 MonoBehaviour:
   m_ObjectHideFlags: 0
