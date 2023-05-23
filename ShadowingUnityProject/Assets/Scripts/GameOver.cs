@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour
 
     void Start()
     {
-        Invoke("ChangeScene", 15f); // Invoke the ChangeScene method after 10 seconds
+        Invoke("ChangeScene", timer); // Invoke the ChangeScene method after 10 seconds
     }
 
     void ChangeScene()
