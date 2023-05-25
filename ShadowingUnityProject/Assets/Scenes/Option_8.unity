@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1103414376}
-  videoLength: 0
+  videoLength: 5
 --- !u!1 &1047172307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,7 +1716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ce05fd2517f1542a5ddc68450e0040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 6
+  countdownTime: 5
   countdownDisplay: {fileID: 78397831}
 --- !u!1 &1121529437
 GameObject:

@@ -945,7 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1186597591}
-  videoLength: 0
+  videoLength: 10
 --- !u!1 &659471150
 GameObject:
   m_ObjectHideFlags: 0
