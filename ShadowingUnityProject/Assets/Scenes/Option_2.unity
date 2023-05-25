@@ -655,15 +655,14 @@ GameObject:
   - component: {fileID: 581283393}
   - component: {fileID: 581283392}
   - component: {fileID: 581283391}
-  - component: {fileID: 581283394}
-  - component: {fileID: 581283395}
+  - component: {fileID: 581283396}
   m_Layer: 5
   m_Name: Skip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &581283390
 RectTransform:
   m_ObjectHideFlags: 0
@@ -730,20 +729,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2112360974}
-        m_TargetAssemblyTypeName: NextClip, Assembly-CSharp
+        m_TargetAssemblyTypeName: SkipForward, Assembly-CSharp
         m_MethodName: Update
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 581283394}
-        m_TargetAssemblyTypeName: ButtonDisappear, Assembly-CSharp
-        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -803,20 +790,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581283389}
   m_CullTransparentMesh: 1
---- !u!114 &581283394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581283389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff2887d63cbb242b58c3948cf76b80de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ForwardButton: {fileID: 581283391}
---- !u!114 &581283395
+--- !u!114 &581283396
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1419,7 +1393,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f98251981a0a1724c9018be831bf6aaf, type: 3}
     m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
@@ -1431,7 +1405,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Double click the hand to Skip
+  m_Text: Dubble click ONCE to skip forward
 --- !u!222 &1047539007
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2190,6 +2164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenTaps: 0.3
   video: {fileID: 2112360972}
+  time: 15
 --- !u!1 &2120185291
 GameObject:
   m_ObjectHideFlags: 0

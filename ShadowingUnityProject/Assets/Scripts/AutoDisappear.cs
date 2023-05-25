@@ -10,13 +10,14 @@ public class AutoDisappear : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        StartCoroutine(HideAndShow(13.0f));
+        StartCoroutine(HideAndShow(8.0f));
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     IEnumerator HideAndShow(float delay)

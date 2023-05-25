@@ -12,6 +12,7 @@ TagManager:
     }         else      IntroVideo
   - IntroVideo
   - Click
+  - Skip
   layers:
   - Default
   - TransparentFX
