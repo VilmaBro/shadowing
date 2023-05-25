@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 21
-  timer: 13
+  timer: 15
 --- !u!4 &814709108
 Transform:
   m_ObjectHideFlags: 0
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ce05fd2517f1542a5ddc68450e0040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 8
+  countdownTime: 10
   countdownDisplay: {fileID: 1562497242}
 --- !u!1 &1540610731
 GameObject:

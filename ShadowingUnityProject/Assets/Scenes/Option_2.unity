@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 209885780}
-  videoLength: 22
+  videoLength: 20
 --- !u!114 &477947873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 659369376}
-  videoLength: 0
+  videoLength: 20
 --- !u!1 &546220853
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ce05fd2517f1542a5ddc68450e0040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 6
+  countdownTime: 10
   countdownDisplay: {fileID: 1881945241}
 --- !u!1 &799597588
 GameObject:

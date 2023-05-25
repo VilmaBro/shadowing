@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ce05fd2517f1542a5ddc68450e0040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 6
+  countdownTime: 10
   countdownDisplay: {fileID: 2013658390}
 --- !u!1 &452230585
 GameObject:
