@@ -1769,7 +1769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 21
-  timer: 20
+  timer: 10
 --- !u!4 &1302244490
 Transform:
   m_ObjectHideFlags: 0
