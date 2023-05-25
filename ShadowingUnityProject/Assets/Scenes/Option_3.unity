@@ -1548,7 +1548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1547689054}
-  videoLength: 17
+  videoLength: 9
 --- !u!114 &884878568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2590,7 +2590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1782761490
 RectTransform:
   m_ObjectHideFlags: 0
