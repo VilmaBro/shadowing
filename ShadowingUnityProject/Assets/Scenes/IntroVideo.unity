@@ -361,6 +361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 455424116}
+  - component: {fileID: 455424118}
   - component: {fileID: 455424117}
   m_Layer: 0
   m_Name: SkipIntro
@@ -394,11 +395,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 455424114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00e03b9f314974317b195863cbabe825, type: 3}
+  m_Script: {fileID: 11500000, guid: 715eb452a3c054b3481f93c15c5b79b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showUpObject: {fileID: 1308447758}
+  videoLength: 4
+--- !u!114 &455424118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455424114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 715eb452a3c054b3481f93c15c5b79b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1205068454}
-  showUpText: {fileID: 1308447758}
   videoLength: 4
 --- !u!1 &1195224102
 GameObject:
