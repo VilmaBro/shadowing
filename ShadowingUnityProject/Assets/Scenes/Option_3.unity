@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 209959259}
   - component: {fileID: 209959261}
   - component: {fileID: 209959260}
+  - component: {fileID: 209959262}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -236,10 +237,10 @@ RectTransform:
   m_Father: {fileID: 1782761490}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15.952927, y: 147}
-  m_SizeDelta: {x: 304.20816, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.3, y: 139.8}
+  m_SizeDelta: {x: 604.2081, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &209959260
 MonoBehaviour:
@@ -263,18 +264,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f98251981a0a1724c9018be831bf6aaf, type: 3}
-    m_FontSize: 48
-    m_FontStyle: 0
+    m_FontSize: 55
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 48
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Double click ONCE to skip forward
+  m_Text: Tap on the hand to skip
 --- !u!222 &209959261
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -283,6 +284,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209959258}
   m_CullTransparentMesh: 1
+--- !u!114 &209959262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209959258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: 5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &228189200
 GameObject:
   m_ObjectHideFlags: 0
