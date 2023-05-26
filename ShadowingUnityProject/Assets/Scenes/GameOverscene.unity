@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7239591227280391068, guid: dbf856eb60cbe47d7a6584c269f126aa, type: 3}
       propertyPath: m_Text
-      value: ups
+      value: up
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbf856eb60cbe47d7a6584c269f126aa, type: 3}
