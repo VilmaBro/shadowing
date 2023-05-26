@@ -23,7 +23,7 @@ public class CountdownTimer : MonoBehaviour
 
             countdownTime--;
         }
-        countdownDisplay.text = "GAME OVER";
+        //countdownDisplay.text = "GAME OVER";
 
         yield return new WaitForSeconds(1f);
 
