@@ -889,7 +889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1241849089}
-  videoLength: 5
+  videoLength: 1
 --- !u!114 &508289772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903,7 +903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 836836473}
-  videoLength: 10
+  videoLength: 7
 --- !u!114 &508289773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,7 +917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1407187255}
-  videoLength: 10
+  videoLength: 7
 --- !u!114 &508289774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1186597591}
-  videoLength: 10
+  videoLength: 7
 --- !u!1 &659471150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2484,7 +2484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 21
-  timer: 16
+  timer: 12
 --- !u!4 &2063848507
 Transform:
   m_ObjectHideFlags: 0
