@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ClickSound : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public AudioSource audioSource; //Lägga in för vilken AudioSource & AudioClip det ska vara
     public AudioClip ClickClip;
 
-    public void ClickSoundEffect()
-    {
-        print("Play Effect");
-        audioSource.Play();
+    public void ClickSoundEffect() 
+    { 
+        audioSource.Play(); //Talar om Audio Source att spelas upp
+        Debug.Log("Play Effect");
     }
 
     private void Start()

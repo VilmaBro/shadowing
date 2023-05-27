@@ -513,7 +513,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d0bcd5bfc9cae45b78cd1808f556c07e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -668,7 +668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754e1cea5284e4ce1be04afce76bce62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 686545159}
   ClickClip: {fileID: 8300000, guid: d0bcd5bfc9cae45b78cd1808f556c07e, type: 3}
 --- !u!225 &735458861
 CanvasGroup:

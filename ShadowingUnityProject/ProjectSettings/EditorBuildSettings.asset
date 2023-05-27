@@ -63,7 +63,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ContinueToWalk.unity
     guid: be91c2c583eac40e983a966aca1e957f
   - enabled: 1
-    path: Assets/Scenes/ENDMomPickMeUp.unity
+    path: Assets/Scenes/MomPickMeUp(GOODEND).unity
     guid: ef23c800739de424fb47e0ce476989dd
   - enabled: 1
     path: Assets/Scenes/GameOverscene.unity
