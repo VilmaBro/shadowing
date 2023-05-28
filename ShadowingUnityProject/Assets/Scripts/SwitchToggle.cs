@@ -27,7 +27,7 @@ public class SwitchToggle : MonoBehaviour
 
         backgroundDefaultColor = backgroundImage.color;
 
-        //Lägger till Listener i händelsen onValueChanged, som styrs av OnSwitch
+        //Lägger till Listener i händelsen onValueChanged, som  styrs av OnSwitch
 
         toggle.onValueChanged.AddListener(OnSwitch);
 

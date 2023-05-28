@@ -9,8 +9,8 @@ public class MusicManagment : MonoBehaviour
 
     private void Start()
     {
-        AudioSource.clip = MusicClip;
-        AudioSource.loop = true;
+        AudioSource.clip = MusicClip; 
+        AudioSource.loop = true; 
         AudioSource.Play();
         DontDestroyOnLoad(AudioSource);
         Debug.Log("Don't Destroy Click");
