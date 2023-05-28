@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0d8a013a64642ba9542459b91b7d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 21
+  nextScene: 20
   timer: 15
 --- !u!4 &814709108
 Transform:
@@ -425,12 +425,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814709106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -536.25867, y: -964.41254, z: -0.052016065}
+  m_LocalPosition: {x: 3.741333, y: -4.4125366, z: -0.052016065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1453007888}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1041589086
 GameObject:
@@ -718,7 +718,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1562497240}
-  - {fileID: 814709108}
   m_Father: {fileID: 150120573}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

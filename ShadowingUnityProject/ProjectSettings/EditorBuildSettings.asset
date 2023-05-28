@@ -60,7 +60,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TurnAround.unity
     guid: 64054e857fe3d48bdaf7c707d3dce444
   - enabled: 1
-    path: Assets/Scenes/ContinueToWalk.unity
+    path: Assets/Scenes/SubwayContinueToWalk.unity
     guid: be91c2c583eac40e983a966aca1e957f
   - enabled: 1
     path: Assets/Scenes/MomPickMeUp(GOODEND).unity
@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TurnLeft(Ending).unity
     guid: 1d0f4fa52f9e5408aa74f69283a47bbe
+  - enabled: 1
+    path: Assets/Scenes/BusContinueToWalk.unity
+    guid: 45187ed4b3b42284381b6a9490d21024
   m_configObjects: {}
