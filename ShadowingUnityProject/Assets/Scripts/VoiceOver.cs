@@ -19,7 +19,7 @@ public class VoiceOver : MonoBehaviour
         yield return new WaitForSeconds(delaySeconds);
         audioSource.enabled = true;
         audioSource.Play();
-        Debug.Log("VoiceOver");
+      //  Debug.Log("VoiceOver");
     }
 }
 
