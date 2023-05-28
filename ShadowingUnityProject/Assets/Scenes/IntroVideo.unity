@@ -414,67 +414,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showUpObject: {fileID: 1205068454}
   videoLength: 4
---- !u!1 &1059627167
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1059627169}
-  - component: {fileID: 1059627168}
-  - component: {fileID: 1059627170}
-  m_Layer: 0
-  m_Name: SoundDelay
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1059627168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1059627167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b94044da4076843aca1e10636bb172a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  voiceoverClip: {fileID: 8300000, guid: 46a5853aa78d34372863be1383b7f868, type: 3}
-  delayInSeconds: 10
---- !u!4 &1059627169
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1059627167}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -73.374695, y: 40.730797, z: -0.96909857}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1059627170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1059627167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b94044da4076843aca1e10636bb172a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  voiceoverClip: {fileID: 0}
-  delayInSeconds: 0
 --- !u!1 &1195224102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,13 +1183,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1844888022}
   - component: {fileID: 1844888023}
+  - component: {fileID: 1844888024}
   m_Layer: 0
   m_Name: VoiceOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1844888022
 Transform:
   m_ObjectHideFlags: 0
@@ -1277,8 +1217,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 46a5853aa78d34372863be1383b7f868, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.109
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1362,6 +1302,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1844888024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844888020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94044da4076843aca1e10636bb172a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delaySeconds: 16
+  audioSource: {fileID: 1844888023}
 --- !u!1 &2002222386
 GameObject:
   m_ObjectHideFlags: 0
