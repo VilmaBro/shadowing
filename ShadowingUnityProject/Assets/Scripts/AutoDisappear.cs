@@ -5,25 +5,12 @@ using UnityEngine;
 public class AutoDisappear : MonoBehaviour
 {
 
-    public GameObject DisappearButton;
+    [SerializeField] GameObject DisappearButton;
 
-    // Use this for initialization
-    void Start()
-    {
-        StartCoroutine(HideAndShow(8.0f));
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    IEnumerator HideAndShow(float delay)
+    IEnumerator Start()
     {
         DisappearButton.SetActive(true);
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSeconds(8.0f);
         DisappearButton.SetActive(false);
     }
 }

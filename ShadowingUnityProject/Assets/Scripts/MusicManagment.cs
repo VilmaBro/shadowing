@@ -12,20 +12,7 @@ public class MusicManagment : MonoBehaviour
         AudioSource.clip = MusicClip;
         AudioSource.loop = true;
         AudioSource.Play();
-    }
-
-    public static MusicManagment instance;
-
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(transform.root);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        DontDestroyOnLoad(AudioSource);
+        Debug.Log("Don't Destroy Click");
     }
 }

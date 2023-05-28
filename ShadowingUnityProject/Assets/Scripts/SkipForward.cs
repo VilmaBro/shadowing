@@ -11,7 +11,7 @@ public class SkipForward : MonoBehaviour
 
     public void OnPointerClick()
     {
-        video.time += (time);
+        video.time += (time); //Video tiden ska plusas på med tiden som skrivs in
         Debug.Log("Skip");
     }
 
