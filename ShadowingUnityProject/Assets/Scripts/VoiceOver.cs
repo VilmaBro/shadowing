@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class VoiceOver : MonoBehaviour
 {
-    public AudioClip voiceoverClip; // Ljudklippet för voiceover
-    public float delayInSeconds; // Antal sekunder innan voiceovern aktiveras
 
-    private AudioSource audioSource;
+    public float delaySeconds = 2f;
+    public AudioSource audioSource;
 
-    void Start()
+    private void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        Invoke("PlayVoiceover", delayInSeconds);
+        StartCoroutine(EnableAudioSourceAfterDelay());
     }
 
-    void PlayVoiceover()
+    private IEnumerator EnableAudioSourceAfterDelay()
     {
-        audioSource.clip = voiceoverClip;
+        yield return new WaitForSeconds(delaySeconds);
+        audioSource.enabled = true;
         audioSource.Play();
+        Debug.Log("VoiceOver");
     }
 }
 
