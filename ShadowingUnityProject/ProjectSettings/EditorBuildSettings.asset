@@ -77,4 +77,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TurnRight(Ending).unity
     guid: 523788b8509b1944387d2bcb378861d8
+  - enabled: 1
+    path: Assets/Scenes/Taxi.unity
+    guid: 5efec9b6169311a4ea97c0c56f1395dd
   m_configObjects: {}
