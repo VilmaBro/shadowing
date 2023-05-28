@@ -1336,7 +1336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &880635813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 20
-  timer: 16
+  timer: 15
 --- !u!4 &880635814
 Transform:
   m_ObjectHideFlags: 0
@@ -1359,7 +1359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880635812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.741333, y: -4.4125366, z: -0.052016065}
+  m_LocalPosition: {x: 3.741333, y: -4.4125977, z: -0.052016065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ce05fd2517f1542a5ddc68450e0040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 6
+  countdownTime: 5
   countdownDisplay: {fileID: 390899853}
 --- !u!1 &1722156533
 GameObject:
