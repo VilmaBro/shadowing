@@ -11,14 +11,14 @@ public class MusicManagment : MonoBehaviour
 
     private void Awake()
     {
-        if(instance == null) //om inte intance redan finns
+        if(instance == null) 
         {
-            instance = this; //låt instance bli objektet
+            instance = this; 
             DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(gameObject); 
         }
     }
 

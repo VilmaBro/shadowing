@@ -18,7 +18,7 @@ public class SwitchToggle : MonoBehaviour
 
     void Awake()
     {
-        //Referera till
+       
         toggle = GetComponent<Toggle>(); 
 
         handlePosition = uiHandleRectTransform.anchoredPosition;
@@ -27,7 +27,7 @@ public class SwitchToggle : MonoBehaviour
 
         backgroundDefaultColor = backgroundImage.color;
 
-        //Lägger till Listener i händelsen onValueChanged, som  styrs av OnSwitch
+        
 
         toggle.onValueChanged.AddListener(OnSwitch);
 
@@ -35,7 +35,7 @@ public class SwitchToggle : MonoBehaviour
             OnSwitch(true);
     }
 
-    void OnSwitch(bool on) //OnSwitch metod
+    void OnSwitch(bool on) 
     {
         uiHandleRectTransform.anchoredPosition = on ? handlePosition * -1 : handlePosition; //Byter positionen om den är på(on)
         backgroundImage.color = on ? backgroundActiveColor : backgroundDefaultColor; //Byter färg när den är på (on)
